@@ -1,0 +1,8 @@
+Criando uma API.
+Primeiro passo dar o comando npm init para que seja criado um projeto node na diretorio feito.
+Após isso criar um arquivo js com nome index . Para que conseguimos utilizar nossa api precisamos criar um servido e quem fara isso é a biblioteca Express, instale a 
+biblioteca express , e crie ela dentro do arquivo , const express = require('express').
+Depois de criar o seu servidor , você deve definir a porta em qual ele ira utilizar . Para isso criamos uma constante chamada app que vai receber o express(). 
+Com isso vamos utilizar o app.listen(3000(porta que vai ser utilizada),()=> console.log('Servidor utilizando porta 3000')).
+Para facilitar o servidor se restartado automaticamente utilizamos o nodemon , apos instalar o nodemon. Vamos criar uma pasta chamado controllers , e nela criar o nome do caminho que você deseja usar.Instalar consign.
+instalar  body-parser
